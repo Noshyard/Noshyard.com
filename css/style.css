@@ -397,10 +397,11 @@ section {
 }
 
 .foody {
+    padding: 1rem;
     font-size: 3rem;
     color: white;
     background-image: linear-gradient( to bottom right, rgb(68, 29, 3), rgb(248, 242, 221));
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
     border-radius: 14px;
 }
@@ -417,10 +418,6 @@ section {
     opacity: 0.5;
     margin-bottom: 4rem;
     cursor: pointer;
-}
-
-.menu .slide {
-    font-size: 2rem;
 }
 
 .swiper-wrapper {
@@ -754,7 +751,17 @@ h1 {
     padding: 0px;
 }
 
-.franchise .module-wrapper h1,
+.module-wrapper {
+    width: 80vw;
+    height: auto;
+    /* background: yellow; */
+    margin: 3rem auto;
+    display: grid;
+    /* padding: 2rem; */
+    color: white;
+}
+
+.module-wrapper h1,
 h2,
 ul {
     padding: 2rem;
