@@ -188,7 +188,7 @@ section {
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-    background-image: linear-gradient( to bottom right, rgb(68, 29, 3), rgb(248, 242, 221));
+    background-image: linear-gradient( to bottom right, rgba(68, 29, 3, 0), rgba(248, 242, 221, 0));
     color: #fff;
 }
 
@@ -946,7 +946,6 @@ ul {
     } */
     .swiper-button-next,
     .swiper-button-prev {
-        top: initial;
         bottom: 1rem;
     }
     .menu .slide .box-container .box {
