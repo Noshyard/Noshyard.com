@@ -917,6 +917,10 @@ ul {
     .fa-times {
         transform: rotate(180deg);
     }
+    .header img {
+        height: fit-content;
+        width: 10rem;
+    }
     .header .navbar {
         position: absolute;
         top: 99%;
