@@ -15,6 +15,10 @@ var swiper = new Swiper(".home-slider", {
     grabCursor: true,
     loop: true,
     centeredSlides: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -25,6 +29,10 @@ var swiper = new Swiper(".food-slider", {
     grabCursor: true,
     loop: true,
     centeredSlides: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
     spaceBetween: 30,
     pagination: {
         el: ".swiper-pagination",
@@ -57,6 +65,7 @@ document.querySelectorAll('.food .slide').forEach(food => {
             }
         });
     };
+
 });
 
 previewContainer.querySelector('#close-preview').onclick = () => {
@@ -64,10 +73,11 @@ previewContainer.querySelector('#close-preview').onclick = () => {
     previewBox.forEach(close => {
         close.classList.remove('active');
     });
-}; 
+};
 
 var swiper = new Swiper(".menu-slider", {
     grabCursor: true,
+
     loop: true,
     autoHeight: true,
     centeredSlides: true,
